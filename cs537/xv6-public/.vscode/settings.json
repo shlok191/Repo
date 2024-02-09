@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "mmu.h": "c",
+        "proc.h": "c",
+        "fcntl.h": "c",
+        "memlayout.h": "c",
+        "sleeplock.h": "c",
+        "typeinfo": "c",
+        "file.h": "c"
+    }
+}

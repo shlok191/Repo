@@ -396,9 +396,9 @@ sys_open(void)
   f->off = 0;
   f->readable = !(omode & O_WRONLY);
   f->writable = (omode & O_WRONLY) || (omode & O_RDWR);
-  //f->name = extract_filename(path);
+  f->name = extract_filename(path);
   
-  //cprintf("%s\n", f->name);
+  cprintf("%s\n", f->name);
   return fd;
 }
 
